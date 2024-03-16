@@ -57,7 +57,7 @@ function App() {
     }
   };
 
-  const handleRefresh = () => {
+  const handleRefresh = (e) => {
     fetchNewFact();
     clearInterval(nIntervId);
   }
